@@ -1,0 +1,82 @@
+.header{
+    width: 535px;
+    margin: 50px 375px 0 375px;
+}
+.whoweare{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #898f99;
+    margin: 20px 0 35px 0;
+}
+.hello{
+    text-align: center;
+    color: #0ec8cb;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+.text-title{
+    text-align: center;
+    color: #999999;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 108px;
+    text-transform: uppercase;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ededed;
+    margin: 0 100px;
+    margin-bottom: 100px;
+}
+.block{
+    width: 230px;
+    text-align: center; 
+    padding: 0 30px; 
+    background-color: #f7f7f7; 
+}
+.block:hover, .block:hover .text{
+    color: #fff;
+    background-color: #0ec8cb;
+}
+.block:hover .fas, .block:hover .far {
+    color: #fff;
+}
+.block:first-child{
+    margin-left: 0;
+    border-right: 1px solid #ededed; 
+}
+.block:nth-child(2){
+    border-right: 1px solid #ededed; 
+}
+.block:nth-child(3){
+    border-right: 1px solid #ededed; 
+}
+.fas, .far{
+    color: #000;
+    font-size: 67px;
+    text-align: center; 
+    margin: 24px auto;
+
+}
+.title-main{
+    margin-top: 45px;;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 33px;  
+    text-transform: uppercase;
+}
+.text{
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 90px;
+}
